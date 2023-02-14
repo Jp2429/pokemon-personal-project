@@ -8,12 +8,14 @@ import NavBar from "../components/NavBar"
 
 const Main=styled.section`
     background-color:white;
-    width:80%;
+    /* width:80%; */
     justify-content:center;
-    border:5px solid;
-    border-radius:10px;
+    /* border:5px solid; */
+    border-top:5px solid;
+    border-bottom:5px solid;
+    /* border-radius:10px; */
     /* margin:25px; */
-    margin-left:140px;
+    /* margin-left:140px; */
 
 `
 
@@ -66,14 +68,12 @@ const PokemonContainer=()=>{
                 <Header/>
                 <NavBar/>
                 <Routes>
-                    <Route exact path="/pokemon-list" element={<PokemonList pokemonList={!filteredPokemonList.length ? pokemonList:filteredPokemonList} filter={filter} saveFilteredPokemon={saveFilteredPokemon} onPrevChange={onPrevChange} onNextChange={onNextChange} curOffset={offset}/>}/>
-                    <Route exact path="/" element={<Home />}/>
+                    <Route exact path="/pokemon-list" element={<PokemonList pokemonList={!filter? pokemonList:filteredPokemonList} filter={filter} saveFilteredPokemon={saveFilteredPokemon} onPrevChange={onPrevChange} onNextChange={onNextChange} curOffset={offset}/>}/>
+                    <Route exact path="/" element={<Home pokemonList={pokemonList} curOffset={offset}/>}/>
                 </Routes>
             </Router>
-            {/* <div>
-                <h2>Home Page</h2>
-            </div> */}
         </Main>
     )
+    //filteredPokemonList.length 
 }
 export default PokemonContainer
