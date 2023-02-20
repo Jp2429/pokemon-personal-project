@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pokemon_project/static/css/main.073c9b0a.css",
-    "main.js": "/pokemon_project/static/js/main.785e0505.js",
-    "static/js/787.cda86cc0.chunk.js": "/pokemon_project/static/js/787.cda86cc0.chunk.js",
-    "static/media/logo.svg": "/pokemon_project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/pokemon_project/index.html",
-    "main.073c9b0a.css.map": "/pokemon_project/static/css/main.073c9b0a.css.map",
-    "main.785e0505.js.map": "/pokemon_project/static/js/main.785e0505.js.map",
-    "787.cda86cc0.chunk.js.map": "/pokemon_project/static/js/787.cda86cc0.chunk.js.map"
+    "main.css": "/pokemon-personal-project/static/css/main.073c9b0a.css",
+    "main.js": "/pokemon-personal-project/static/js/main.f02a817d.js",
+    "static/js/787.cda86cc0.chunk.js": "/pokemon-personal-project/static/js/787.cda86cc0.chunk.js",
+    "static/media/logo.svg": "/pokemon-personal-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pokemon-personal-project/index.html",
+    "main.073c9b0a.css.map": "/pokemon-personal-project/static/css/main.073c9b0a.css.map",
+    "main.f02a817d.js.map": "/pokemon-personal-project/static/js/main.f02a817d.js.map",
+    "787.cda86cc0.chunk.js.map": "/pokemon-personal-project/static/js/787.cda86cc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.785e0505.js"
+    "static/js/main.f02a817d.js"
   ]
 }
