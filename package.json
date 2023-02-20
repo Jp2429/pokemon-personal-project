@@ -2,7 +2,7 @@
   "name": "pokemon_project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jp2429.github.io/pokemon_project",
+  "homepage": "https://jp2429.github.io/pokemon-personal-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
