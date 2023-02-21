@@ -19,10 +19,10 @@ const NavBar = () => {
   return (
     <ProductUl>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/pokemon-personal-project/">Home</Link>
       </li>
       <li>
-        <Link to="/pokemon-list">List of Pokemon</Link>
+        <Link to="/pokemon-personal-project/pokemon-list">List of Pokemon</Link>
       </li>
       
     </ProductUl>
