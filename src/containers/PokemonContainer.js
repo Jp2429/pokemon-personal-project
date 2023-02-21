@@ -68,8 +68,8 @@ const PokemonContainer=()=>{
                 <Header/>
                 <NavBar/>
                 <Routes>
-                    <Route exact path="/pokemon-list" element={<PokemonList pokemonList={!filter? pokemonList:filteredPokemonList} filter={filter} saveFilteredPokemon={saveFilteredPokemon} onPrevChange={onPrevChange} onNextChange={onNextChange} curOffset={offset}/>}/>
-                    <Route exact path="/" element={<Home pokemonList={pokemonList} curOffset={offset}/>}/>
+                    <Route exact path="/pokemon-personal-project/pokemon-list" element={<PokemonList pokemonList={!filter? pokemonList:filteredPokemonList} filter={filter} saveFilteredPokemon={saveFilteredPokemon} onPrevChange={onPrevChange} onNextChange={onNextChange} curOffset={offset}/>}/>
+                    <Route exact path="/pokemon-personal-project/" element={<Home pokemonList={pokemonList} curOffset={offset}/>}/>
                 </Routes>
             </Router>
         </Main>
