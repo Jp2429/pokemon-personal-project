@@ -23,6 +23,8 @@ const PokeListLi=styled.li`
     border-radius:20px;
     margin-top:10px;
     margin-bottom:10px;
+    /* box-shadow:2px 3px black; */
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     &:hover{
         background-color:whitesmoke;
     }
